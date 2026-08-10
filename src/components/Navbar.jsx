@@ -17,7 +17,7 @@ const Navbar = () => {
         <a href="https://www.instagram.com/juzt_naveen/" target="_blank" rel="noreferrer noopener" className="cursor-target social-link social-link--instagram">IG</a>
 
         <a
-          href="/Saravanan_S_AI-Engg_Resume.pdf"
+          href="/Naveenkumar-Resume.pdf"
           target="_blank"
           className="resume-btn cursor-target"
           onMouseEnter={() => setHovered('resume')}
