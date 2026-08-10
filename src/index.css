@@ -1,0 +1,46 @@
+/* Global reset and base styles to remove white gaps and prevent overflow */
+html, body, #root {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	background: #000;
+	color: #fff;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+main {
+	min-height: 100vh;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+a { color: inherit; text-decoration: none; }
+
+/* Global black edge / outline for text to improve readability over images */
+/* :root{
+	--text-edge-color: #000;
+	--text-edge-size: 0.9px;
+} */
+
+/* Apply a thin outline using multiple text-shadows and webkit text stroke for supported browsers */
+/* body, body * {
+	text-shadow: -1px -1px 0 var(--text-edge-color), 1px -1px 0 var(--text-edge-color), -1px 1px 0 var(--text-edge-color), 1px 1px 0 var(--text-edge-color);
+	-webkit-text-stroke: 0.6px var(--text-edge-color);
+} */
+
+/* Reduce stroke/shadow for very small UI text to avoid heaviness */
+/* small, .small-text {
+	text-shadow: -0.6px -0.6px 0 var(--text-edge-color), 0.6px -0.6px 0 var(--text-edge-color), -0.6px 0.6px 0 var(--text-edge-color), 0.6px 0.6px 0 var(--text-edge-color);
+	-webkit-text-stroke: 0.3px var(--text-edge-color);
+} */
+
