@@ -1,5 +1,5 @@
 import "../styles/About.css";
-import profileImage from "../assets/photo.jpg";
+import profileImage from "../assets/photo.webp";
 
 const About = () => {
   return (
@@ -19,11 +19,11 @@ success of the organization.
         <div className="about-highlights">
           <article className="highlight-card">
             <h3>Experience</h3>
-            <p>1+ years designing, building, and shipping full-stack web applications.</p>
+            <p>1+ years building modern web applications with React.js, while exploring full-stack development and AI technologies.</p>
           </article>
           <article className="highlight-card">
             <h3>Specialty</h3>
-            <p>RAG systems, AI agents, automation pipelines, and robust SaaS backends.</p>
+            <p>React.js development, modern UI design, full-stack applications, Generative AI, and RAG-based solutions.</p>
           </article>
           <article className="highlight-card">
             <h3>Approach</h3>
@@ -35,18 +35,18 @@ success of the organization.
       <div className="about-panel" style={{ backgroundImage: `url(${profileImage})` }}>
         <div className="profile-card">
           <div className="profile-details">
-            <p className="profile-title">AI Product Engineer</p>
+            <p className="profile-title">Software Developer</p>
             <p className="profile-description">
-              I design elegant interfaces and build backend systems that support modern AI workflows, from data ingestion to conversational applications.
+              I build modern, responsive interfaces with React.js and Tailwind CSS, while growing my expertise in full-stack and AI development.
             </p>
             <div className="profile-meta">
               <div>
                 <strong>Interests</strong>
-                <span>AI, Machine Learning, Neural Networks, Computer Vision</span>
+                <span>Web development, AI, RAG, Computer Vision</span>
               </div>
               <div>
                 <strong>Hobbies</strong>
-                <span>Traveling, Photography, Music</span>
+                <span>Traveling, Exploring Technology, Listening to Music</span>
               </div>
             </div>
           </div>

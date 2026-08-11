@@ -1,7 +1,7 @@
 import "../styles/Home.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import profileImage from "../assets/Naveen-photo.jpg";
+import profileImage from "../assets/Naveen-photo.webp";
 
 const Home = () => {
   const [open, setOpen] = useState(false);

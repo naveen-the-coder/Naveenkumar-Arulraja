@@ -1,4 +1,4 @@
-﻿# MR. Blackpen Portfolio
+﻿# Naveenkumar Portfolio
 
 A modern portfolio website built with React and Vite, featuring a monochrome black-and-white theme, animated interactions, and responsive page layouts.
 
@@ -38,7 +38,7 @@ A modern portfolio website built with React and Vite, featuring a monochrome bla
 ## Installation
 
 ```bash
-cd \mr.blackpen\protfolio
+cd \naveenkumar\portfolio
 npm install
 ```
 

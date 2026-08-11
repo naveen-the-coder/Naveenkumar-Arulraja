@@ -5,7 +5,7 @@ import handshakeImage from "../assets/handshake.webp";
 const Contact = () => {
   const handleWhatsAppClick = (e) => {
     e.preventDefault();
-    const phone = "918056924997"; // international format without +
+    const phone = "917871811737"; // international format without +
     const ua = typeof navigator !== "undefined" ? navigator.userAgent || "" : "";
     const isMobile = /Mobi|Android|iPhone|iPad|iPod|Windows Phone|BlackBerry|Opera Mini|IEMobile/i.test(ua);
 
@@ -23,7 +23,7 @@ const Contact = () => {
 
   const handleEmailClick = (e) => {
     e.preventDefault();
-    const email = "saravanansankaralingam3@gmail.com";
+    const email = "naveenkumararulraja@gmail.com";
     const ua = typeof navigator !== "undefined" ? navigator.userAgent || "" : "";
     const isMobile = /Mobi|Android|iPhone|iPad|iPod|Windows Phone|BlackBerry|Opera Mini|IEMobile/i.test(ua);
     const subject = ""; // you can prefill subject if desired
@@ -46,7 +46,7 @@ const Contact = () => {
     const email = form.elements.email?.value?.trim() || "";
     const message = form.elements.message?.value?.trim() || "";
 
-    const phone = "918056924997";
+    const phone = "91787181137";
     const ua = typeof navigator !== "undefined" ? navigator.userAgent || "" : "";
     const isMobile = /Mobi|Android|iPhone|iPad|iPod|Windows Phone|BlackBerry|Opera Mini|IEMobile/i.test(ua);
 
