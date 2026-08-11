@@ -1,104 +1,144 @@
 import "../styles/Career.css";
 import sentinix_logo from "../assets/sentinix_logo.webp";
 import intwhizz_logo from "../assets/intwhizz_logo.webp";
-import vyastics_logo from "../assets/vyastics_logo.webp";
+import smackcoders_logo from "../assets/smackcoders_logo.webp";
 
 const experiences = [
   
   {
-    company: "IntWhizz Business Solutions",
-    logo: intwhizz_logo,
-    role: "Frontend Developer",
-    period: "Aug 2025 — Mar 2026",
-    location : "Tirunelveli, Tamil Nadu",
-    summary:
-      "Worked across MERN and Java full-stack projects, contributing to and leading custom product development both as part of cross-functional teams and independently. Delivered end-to-end solutions — from UI and API design to deployment and production support — for business applications including billing systems and KOT solutions.",
-    bullets: [
-      "Developed full-stack features using both MERN and Java/Spring Boot stacks, owning modules end-to-end",
-      "Built custom products (billing, KOT) as a team member and single-handedly delivered smaller products",
-      "Designed database schemas and transactional APIs optimized for performance and data integrity",
-      "Integrated external services (payment gateways, thermal printers) and third-party APIs",
-      "Implemented real-time order flows and notifications using WebSockets/Socket.IO",
-      "Containerized services with Docker and introduced CI/CD pipelines for reliable deployments",
-      "Authored unit and integration tests; improved observability and production monitoring",
-      "Collaborated with product, QA, and operations and mentored junior developers",
-    ],
-    techStack: [
-      "React",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Java",
-      "Spring Boot",
-      "Maven",
-      "PostgreSQL",
-      "Tailwind CSS",
-      "Material UI",
-      "Git",
-      "Jira",
-    ],
-    website: "https://intwhizz.in/",
-  },
+  company: "IntWhizz Business Solutions",
+  logo: intwhizz_logo,
+  role: "Frontend Developer",
+  period: "Aug 2025 — Mar 2026",
+  location: "Tirunelveli, Tamil Nadu",
+
+  summary:
+    "Worked as a Frontend Developer, building responsive and user-friendly web applications using React.js, Tailwind CSS, and Material UI. Collaborated with backend and cross-functional teams to integrate APIs, develop business features, and deliver reliable applications.",
+
+  bullets: [
+    "Developed responsive and reusable user interfaces using React.js, Tailwind CSS, and Material UI",
+
+    "Built and maintained business applications including POS, billing, and management systems",
+
+    "Integrated REST APIs and handled frontend data management and API interactions",
+
+    "Implemented reusable React components, forms, tables, filters, pagination, and responsive layouts",
+
+    "Collaborated with backend developers to integrate Node.js, APIs",
+
+    "Worked with MongoDB and PostgreSQL for application data integration and management",
+
+    "Used Git and GitHub for version control and collaborated with team members using Jira",
+
+    "Participated in debugging, testing, deployment, and production support",
+
+    "Worked closely with product and QA teams to improve application functionality and user experience"
+  ],
+
+  techStack: [
+    "React.js",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Material UI",
+    "REST APIs",
+    "Git",
+    "GitHub",
+  ],
+
+  website: "https://intwhizz.in/",
+},
   {
-    company: "Sentinix Tech Solutions",
-    logo: sentinix_logo,
-    role: "Frontend Developer",
-    period: "Mar 2025 — jul 2025",
-    location: "Tirunelveli, Tamil Nadu",
-    summary:
-      "Contributed to MERN-stack product development as part of a cross-functional team building custom products such as billing systems and KOT (Kitchen Order Ticket) solutions. Implemented end-to-end features from UI to backend, real-time order flows, external integrations, and production deployments.",
-    bullets: [
-      "Developed MERN-stack features and modules for custom products (Billing, KOT)",
-      "Implemented real-time order and notification flows using Socket.IO",
-      "Integrated payment gateways, thermal printers, and external APIs",
-      "Designed and implemented RESTful APIs and database schemas for transactional workloads",
-      "Built admin dashboards and reporting tools for operations and billing",
-      "Authored unit and integration tests, and improved reliability with CI/CD pipelines",
-      "Containerized services with Docker and managed deployments to staging/production",
-    ],
-    techStack: [
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Express",
-      "PostgreSQL",
-      "Tailwind CSS",
-      "Material UI",
-      "Git",
-      "Jira",
-    ],
-    website: "https://www.sentinixtechsolutions.com/",
-  },
+  company: "Sentinix Tech Solutions",
+  logo: sentinix_logo,
+  role: "Frontend Developer",
+  period: "Mar 2025 — Jul 2025",
+  location: "Tirunelveli, Tamil Nadu",
+
+  summary:
+    "Worked as a Frontend Developer on MERN-stack applications, developing responsive user interfaces and business features using React.js, Tailwind CSS, and Material UI. Collaborated with backend developers to integrate APIs and deliver reliable business solutions.",
+
+  bullets: [
+    "Developed responsive and reusable user interfaces using React.js, Tailwind CSS, and Material UI",
+
+    "Contributed to business applications including billing and KOT (Kitchen Order Ticket) systems",
+
+    "Integrated REST APIs and managed frontend data flow for business operations",
+
+    "Built admin dashboards, data tables, forms, filters, and reporting interfaces",
+
+    "Implemented real-time order updates and notifications using Socket.IO",
+
+    "Integrated external APIs and services to support application functionality",
+
+    "Collaborated with backend developers working with Node.js, and MongoDB",
+
+    "Used Git and Jira for version control, task management, and team collaboration",
+
+    "Participated in debugging, testing, deployment, and production support"
+  ],
+
+  techStack: [
+    "React.js",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Material UI",
+    "Node.js",
+    "REST APIs",
+    "MongoDB",
+    "PostgreSQL",
+    "Git",
+    "GitHub",
+    "Jira"
+  ],
+
+  website: "https://www.sentinixtechsolutions.com/",
+},
   {
-    company: "Smackcoders Inc",
-    logo: vyastics_logo,
-    role: "Intern | React developer",
-    period: "Jun 2026 — Present",
-    location: "Tirunelveli, Tamil Nadu",
-    summary:
-      "Working as a full-stack engineer on python django projects, contributing to custom product development and leading modules end-to-end. Involved in UI and API design, database schema design, external integrations, and production deployments.",
-    bullets: [
-      "Developed full-stack features using Python Django and React, owning modules end-to-end",
-      "Designed database schemas and transactional APIs optimized for performance and data integrity",
-      "Integrated external services (AWS Cloud Services) and third-party APIs",
-      "Implemented real-time order flows and notifications using WebSockets",
-      "Containerized services with Docker and introduced CI/CD pipelines for reliable deployments",
-      "Authored unit and integration tests; improved observability and production monitoring",
-      "Collaborated with product, QA, and operations and mentored junior developers",
-    ],
-    techStack: [
-      "Python",
-      "Django",
-      "FastAPI",
-      "React",
-      "MySQL",
-      "Git Version Control",
-      "Docker",
-      "CI/CD Pipelines",
-      "AWS Cloud Services",
-    ],
-    website: "https://www.smackcoders.com/",
-  }
+  company: "Smackcoders Inc",
+  logo: smackcoders_logo,
+  role: "Intern | React Developer",
+  period: "Aug 2024 — Jan 2025",
+  location: "Tirunelveli, Tamil Nadu",
+
+  summary:
+    "Worked as a React Developer Intern, contributing to WordPress plugin development with a focus on building responsive, scalable, and user-friendly interfaces. Collaborated with backend developers and QA teams to deliver reliable frontend features and seamless plugin functionality.",
+
+  bullets: [
+    "Developed responsive and user-friendly interfaces using React.js, JavaScript, HTML5, CSS3, and Material UI",
+
+    "Contributed to the Backup & Restoration WordPress Plugin, enabling users to manage website backups and restoration workflows",
+
+    "Built interactive UI components, configuration panels, dynamic forms, and data management interfaces",
+
+    "Implemented frontend features for backup scheduling, website data management, and restoration workflows",
+
+    "Integrated frontend components with backend functionality to ensure seamless plugin operations",
+
+    "Collaborated with backend developers and QA teams to troubleshoot issues and improve application reliability",
+
+    "Participated in testing, debugging, and improving the overall user experience of WordPress plugins",
+
+    "Worked with Git for version control and collaborative development"
+  ],
+
+  techStack: [
+    "React.js",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Material UI",
+    "WordPress",
+    "PHP",
+    "Git",
+    "GitHub"
+  ],
+
+  website: "https://www.smackcoders.com/",
+}
 ];
 
 const Career = () => {
